@@ -107,3 +107,145 @@ ul li a:hover{
     outline: none;
 }
 
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: yellow;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: red;
+    transition: .3s ease;
+}
+
+.cn:hover{
+background-color: aqua;
+}
+
+.content span{
+    color: brown;
+    font-size: 60px;
+}
+
+.form{
+    width: 240px;
+    height: 280px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+    position: right;
+    top: -20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid brown;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: azure;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color:beige;
+    font-family:Arial;
+}
+
+.btnn{
+    width: 200px;
+    height: 30px;
+    background: red;
+    border: none;
+    margin-top: 30px;
+    border-radius: 18px;
+    cursor: pointer;
+    color:blue;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: beige;
+    color:aqua;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: brown;
+}
+
+.liw{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+}
+
+
+
